@@ -3,10 +3,10 @@ import React from 'react'
 
 function Item({ data }) {
   return (
-    <div className='shadow-md bg-white text-center'>
-      <p className='text-2xl p-10'>{data.title}</p>
-    </div>
-  )
+    <div className="shadow-md bg-white text-center">
+    <p className="text-2xl p-10">{data.setup}</p>
+  </div>
+  );
 }
 
-export default Item
+export default Item;
